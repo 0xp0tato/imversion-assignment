@@ -2,9 +2,11 @@ import express from "express";
 import transactionRouter from "./routers/transaction";
 import { errorHandler } from "./middlewares/error";
 import { logger } from "./middlewares/logger";
+import cors from "cors";
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 app.use(logger);
 
