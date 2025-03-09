@@ -1,0 +1,13 @@
+enum TransactionType {
+    income
+    expense
+}
+
+model Transaction {
+    id          String          @id @default(uuid())
+    type        TransactionType
+    amount      Int
+    category    String
+    date        DateTime        @default(now())
+    description String?
+}
