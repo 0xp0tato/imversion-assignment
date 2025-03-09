@@ -8,6 +8,13 @@ interface ICreateObject {
   date?: any;
 }
 
+/**
+ * Function to create an object based on the provided fields for filter and update queries
+ *
+ * @param {ICreateObject} fields - An object containing the fields to include in the new object.
+ * @returns {Object} - A new object with the specified fields.
+ */
+
 export function createObject(fields: ICreateObject) {
   const { type, from, to, category, amount, description } = fields;
   const obj: any = {};
