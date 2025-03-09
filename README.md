@@ -1,8 +1,6 @@
-Here's the complete README.md file with all the instructions and documentation in one segment. You can copy and paste this directly into your project:
+# Imversion Assignment
 
-# Project Title
-
-Brief description of what your project does and its purpose.
+Assignment for Imversion
 
 ## Table of Contents
 
